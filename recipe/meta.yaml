@@ -1,4 +1,4 @@
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: pngcheck
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/pnggroup/pngcheck/archive/v{{ version }}.tar.gz
-  sha256: ed13f49bc1205bdf7cd0fc208b6e0eef550da021d1631f7180f718a4db379398
+  sha256: a24ac2348efca5895e9d6f53fd316f3d5c409ab92a74b2b8106541759304da53
 
 build:
   number: 0
